@@ -1,0 +1,35 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.message-container {
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.message-container h1, .message-container h2 {
+    color: #00ff00; /* Green text */
+    text-transform: uppercase;
+}
+
+.message-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.message-container h2 {
+    font-size: 28px;
+}
